@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.body {
+    text-align: center;
+}
+.nav-bar {
+    background: #74C69D;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.nav-pic {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 20px;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    margin-top: 5vh;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: white
+}
+.hero {
+    background: #74C69D;
+    display: flex;
+    justify-content: space-around;
+}
+.hero-title {
+    margin-top: 40px;
+    color: white;
+    width: 30vw;
+    font-size: 1.3rem;
+    margin: 50px;
+}
+.hero-title p {
+    margin-top: 15px;
+}
+.hero-title h3 {
+    font-style: bold;
+    letter-spacing: 5px;
+
+}
+#button {
+    font-size: 1rem;
+    height: 6vh;
+    width: 10vw;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    color: #000000;
+    border: white solid 2px;
+}
+.hero-image {
+    margin: 50px;
+}
+.text-head {
+    text-align: center;
+    margin-top: 50px;
+}
+.text-head h4{
+    color: green;
+}
+.partner-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 8vh;
+}
+.but {
+    position: absolute;
+    left: 45%;
+    right: 55%;
+    background: #000000;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 15vh;
+    cursor: pointer;
+}
+.table1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 25vh;
+    gap: 5vw;
+}
+.text {
+    margin-top: 40px;
+    color: #000000;
+    width: 30vw;
+    font-size: 1.3rem;
+    margin: 50px;
+    margin-top: 15vh;
+}
+button {
+    font-size: 1rem;
+    height: 6vh;
+    width: 10vw;
+    margin-top: 8vh;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: white;
+}
+.table2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 5vh;
+    gap: 5vw;
+    /* height: 50vh; */
+}
+.text2 {
+    margin-top: 100vh;
+    color: #000000;
+    width: 26vw;
+    font-size: 1.3rem;
+    margin: 50px;
+}
+.team {
+    text-align: center;
+    margin-top: 8vh;
+}
+.team h4 {
+    color: green;
+}
+.team h3 {
+    width: 404;
+height: 60;
+opacity: 1;
+
+}
+span {
+    color: green;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7vw;
+    margin-right: 10vw;
+    margin-top: 8vh;
+}
+.btt {
+    position: relative;
+    left: 45%;
+    right: 55%;
+    margin-bottom: 10vh;
+    background: black;
+    color: white;
+}
+.bttn {
+    position: relative;
+    left: 45%;
+    right: 55%;
+    margin-bottom: 10vh;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10vh;
+    gap: 2%;
+    margin-bottom: 10vh;
+}
+strong {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    margin-top: 5vh;
+    text-align: center;
+    margin-bottom: 10vh;
+}
+.title h4 {
+    color: green;
+}
+.money-card {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    gap: 30px;
+    height: 70vh;
+}
+.money-card ul {
+    box-shadow: #0000009f
+    5px 5px 15px 5px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+}
+.money-card li {
+    margin-top: 30px;
+}
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 20vh;
+    height: fit-content;
+}
+.forms input {
+    width: 30vw;
+    height: 4vh;
+}
+.forms textarea {
+    width: 30vw;
+    height: 5vw;
+}
+.forms button {
+    width: 30vw;
+}
+#form {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+ /* footer */
+ .icons {
+    background: #74C69D;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .small {
+    display: flex;
+    gap: 10px;
+ }
+ 
